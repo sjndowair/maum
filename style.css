@@ -1,0 +1,204 @@
+body{
+  font-family:Nanum Gothic, sans-serif;
+  width: 100%;
+  height:100%;
+}
+header{
+  height: 200px;
+  width: 100%
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+header .inner{
+  height: 200px;
+}
+header .inner h1{ 
+  text-align: center;
+  height: 130px;
+  line-height: 130px;
+}
+header .inner h1 img{
+  width:150px;
+  height: 75px;
+}
+header .inner nav{
+float: right;
+width: 800px;
+height: 80px;
+line-height: 80px;
+}
+header .inner nav ul li{
+  float: left; 
+  font-size: 19px;
+  font-weight: 700;
+  width: 120px;
+}
+header .inner nav ul li a{
+  text-align: center;
+  position: relative;
+  float: left;
+}
+header .inner nav ul li:last-child{
+  float: right;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 600;
+}
+.first__contain{
+height: 1000px;
+  background: url(https://contents.sixshop.com/thumbnails/uploadedFiles/50933/default/image_1670567134721_2500.jpg) no-repeat;
+  background-size: cover;
+}
+.first__contain article{
+  position: absolute;
+  z-index: 15;
+  left:100px;
+  top:100px;
+  overflow: fixed;
+}
+
+
+.first__contain article div img{
+  width: 400px;
+  
+}
+
+
+.first__contain article div p{
+  display: inline;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.first__contain article div button{
+  position: absolute;
+  text-align: right;
+  padding-right: 10px;
+  bottom:0;
+  right: 0;
+  width: 400px;
+  background-color: #888;
+}
+
+.first__contain article div p img{
+ width:15px;
+ background-color: #888
+ 
+}
+
+.second__contain{
+  height: 100px;
+  padding-bottom: 40px;
+}
+.second__contain > .inner{
+  height: 200px;
+}
+.second__contain > .inner nav{
+ float: left;
+ margin-top: 50px;
+ padding:0 16px;
+}
+.second__contain > .inner ul li:first-child{
+  background-color: #D4D4D4;
+}
+.second__contain > .inner ul li{
+float: left;
+padding:8px 20px;
+border: 1px solid #D4D4D4;
+text-align: center;
+color: #222;
+border-radius: 30px;
+margin-left: 30px;
+}
+.second__contain > .inner ul li:first-child{
+  margin:0;
+}
+.twelve__contain{
+  width:1162px;
+  margin: auto;
+  height: 3500px;
+}
+.twelve__contain .first__twelve {
+  padding:16px;
+  height: 560px;
+}
+.twelve__contain .first__twelve div{
+  font-size: 0;
+  width:362px;
+  text-align: center;
+  float: left; 
+  padding:0 7px;
+}
+
+.twelve__contain .first__twelve div ul li{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center; 
+}
+.twelve__contain .first__twelve div ul li:first-child{
+  font-size:20px;
+  text-align: center;
+  padding:30px 0 15px 0;
+  
+}
+
+.twelve__contain .first__twelve div ul li:first-child a{
+  color:#333;
+}
+
+.twelve__contain .first__twelve div li a{
+  color: #888;
+}
+.twelve__contain .first__twelve div li small{
+  padding-top: 15px;
+  display: block;
+}
+.twelve__contain .first__twelve div img{
+  width:362px;
+  height: 362px;
+}
+footer .inner{
+  height: 150px;
+}
+footer .inner div{
+  float: left;
+}
+footer .inner ul li{
+  float: left;
+  position: relative;
+  font-size: 13px;
+  padding: 0 10px;
+}
+footer .inner ul li a{
+  color: #333;
+}
+footer .inner div ul:last-child{
+ padding-top: 30px;
+ display: block;
+}
+footer .inner ul li:first-child::before,
+footer .inner ul:last-child li::before{
+  display:none;
+}
+footer .inner ul:last-child li{
+  display: block;
+ line-height: 60px;
+  height: 60px;
+}
+footer .inner ul:last-child li:first-child{
+  line-height: 55px;
+}
+footer .inner ul li::before{
+  content:"";
+  width:1px;
+  height: 13px;
+  background-color: #333;
+  position: absolute;
+  top:3px;
+  left: 0;
+}
+footer .inner ul li img{
+  width: 26px;
+  height: 26px;
+}
